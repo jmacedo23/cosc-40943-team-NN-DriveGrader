@@ -59,3 +59,4 @@ Each member adds their own line, in their own commit.
 
 - Joseph Macedo 4 Sep 2026
 - Kaylynn Slaughter 4 Sep 2026
+- Kanta Endo 4 Sep 2026
