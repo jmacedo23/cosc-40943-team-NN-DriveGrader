@@ -37,11 +37,15 @@ _Within one use case, `PRE-1`, `POST-1`, and the step numbers are local and may 
 
 ### 1.1 Purpose
 
-_[One paragraph: this document specifies the goals users can accomplish with the system, in enough detail that a developer knows what to build and a tester knows what to check.]_
+Drive Grader gives parents doing Texas Parent-Taught Driver Education a structured way to grade their teen's driving instead of "go that way, don't hit that cone" with no real criteria. It does this three ways, confirmed directly by the client: (1) real-time infraction logging against ~10 standard grading categories during a practice drive, (2) a digital version of the state's official DL-40 road-test grade sheet — reordered to match the actual test route instead of the sheet's fixed printed order — that ends in a signed, printed grade sheet, and (3) tracking progress toward the 44 hours (30 general + 7 instruction + 7 observation) Texas requires before testing. This document specifies those goals in enough detail that a developer knows what to build and a tester knows what to check.
 
 ### 1.2 Scope
 
 _[Which feature areas from the vision and scope are covered here. Name the `FEAT-*` entries. If a feature has no use cases yet, say so rather than leaving the reader to notice.]_
+
+Covers what the client confirmed as core: session tracking, real-time grading, the DL-40 digital grading mode, hour/requirement tracking, OBD-II vehicle data integration, and the existing admin panel (organizations, drive plans, maneuvers/score criteria). Explicitly out of scope for this version, per the client: AI evaluation/comparison of sessions ("AI is optional, not required — no specific use case identified"); instructional/how-to videos and real-time instructor fleet observation were in the original brief but were not raised or confirmed in the client meeting, so they are dropped from this list until confirmed. If they resurface, they belong under new area codes, not folded into the areas below.
+
+---
 
 ---
 
