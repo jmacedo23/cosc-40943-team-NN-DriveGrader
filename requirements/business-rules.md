@@ -1,8 +1,8 @@
 # Business Rules
 
-**Project:** _[Your project name]_
-**Team:** _[Team NN]_
-**Client:** _[Client name and organization]_
+**Project:** Drive Grader
+**Team:** Team 12
+**Client:** Eric Brown
 **Version:** 0.1
 
 ---
@@ -82,7 +82,7 @@ _The Source column is the defense. Every rule traces to a document or a person, 
 
 | Date | Version | Description | Author |
 |---|---|---|---|
-| _[YYYY-MM-DD]_ | 0.1 | Initial rules from the client brief and first client meeting | _[Name]_ |
+| 2026-09-11 | 0.1 | Initial rules drafted from initial client meeting | Kanta Endo|
 
 ---
 
@@ -90,12 +90,11 @@ _The Source column is the defense. Every rule traces to a document or a person, 
 
 ### 1.1 Purpose
 
-_[One paragraph: this document collects the policies, regulations, standards, and formulas that govern the business your software operates in, so the specification can cite them rather than restate them.]_
+This document collects the policies and regulations — primarily from the Texas Department of Public Safety (DPS) governing parent-taught driver education — that Drive Grader must conform to, so that the specification can cite these rules rather than restate them.
 
 ### 1.2 Scope
 
-_[Which parts of the client's business these rules cover, and which are out of scope. If your client's organization has rules that your system does not touch, say so here rather than silently omitting them.]_
-
+Covers rules governing (a) the required driving-hour log for parent-taught driver education in Texas, and (b) the DL-40 road-test grade sheet. Does **not** cover the team's own technical or design decisions (backend database choice, UI polish, deployment platform, semester deadlines) — those are client/team constraints, not business rules, and belong in the specification instead. See the "Flagged as *not* a business rule" section below for the items pulled out of this file and why.
 ---
 
 ## 2. Rules
