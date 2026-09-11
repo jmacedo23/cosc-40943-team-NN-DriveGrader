@@ -58,3 +58,7 @@ Still unresolved: we escalate to our TA, then to the instructor. We escalate ear
 Each member adds their own line, in their own commit.
 
 - Joseph Macedo 4 Sep 2026
+- Kaylynn Slaughter 4 Sep 2026
+- Kanta Endo 4 Sep 2026
+- Syrah Omar 4 Sep 2026
+- Kaylee Webb 4 Sep 2026
